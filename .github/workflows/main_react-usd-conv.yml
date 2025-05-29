@@ -65,6 +65,16 @@ jobs:
         with:
           name: node-app
       
+      - name: Verify build artifacts
+        run: |
+          echo "Checking build folder structure..."
+          ls -la build/
+          echo "Checking server.js exists..."
+          test -f server.js || (echo "ERROR: server.js missing!" && exit 1)
+          echo "Checking index.html exists..."
+          test -f build/index.html || (echo "ERROR: build/index.html missing!" && exit 1)
+          echo "✅ All critical files present"
+
       - name: 'Deploy to Azure WebApp'
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
