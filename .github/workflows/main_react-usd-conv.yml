@@ -44,7 +44,6 @@ jobs:
     - name: Show build folder contents
       run: ls -la build
 
-
   deploy:
     runs-on: ubuntu-latest
     needs: build
