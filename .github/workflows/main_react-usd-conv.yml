@@ -30,7 +30,7 @@ jobs:
     - name: Set env vars for build
       run: echo "REACT_APP_API_KEY=${{ secrets.REACT_APP_API_KEY }}" >> $GITHUB_ENV
 
-    - name: npm install, build, and test
+    - name: npm install and build
       run: |
         npm install
         npm run build --if-present
