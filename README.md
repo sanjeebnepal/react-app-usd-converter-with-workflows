@@ -1,11 +1,5 @@
 # Currency Converter with CI/CD Automated Deployment on Azure
 
-**Submitted by:**  
-Sanjeeb Nepal (C0923568)  
-Nabin Shrestha (C0939681)
-
----
-
 ## Project Overview
 
 This project demonstrates the application of Continuous Integration and Continuous Deployment (CI/CD) using a simple currency converter web application built with ReactJS (frontend) and Node.js with Express (backend). The CI/CD pipeline automates testing, building, and deployment to an Azure Web App using GitHub Actions.
