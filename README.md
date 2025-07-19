@@ -3,9 +3,6 @@
 ## Project Overview
 
 This project demonstrates the application of Continuous Integration and Continuous Deployment (CI/CD) using a simple currency converter web application built with ReactJS (frontend) and Node.js with Express (backend). The CI/CD pipeline automates testing, building, and deployment to an Azure Web App using GitHub Actions.
-
-With the rapid evolution of cloud-native development, CI/CD has become critical in ensuring faster, reliable, and automated software delivery (Ghimire, 2020). This project highlights best practices integrating security through GitHub secrets and deploying with YAML-based workflows.
-
 ---
 
 ## Technologies Used
