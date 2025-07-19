@@ -63,7 +63,7 @@ REACT_APP_API_KEY=your_actual_api_key_here
 
 ```bash
 # Clone the repository
-git clone https://github.com/sanjeebnepal/react-app-usd-converter-with-workflows.git
+git clone https://github.com/sanjeebnepal/react-githubcicd-azure.git
 cd react-app-usd-converter-with-workflows
 
 # Install project dependencies
