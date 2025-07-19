@@ -46,16 +46,26 @@ This project demonstrates the application of Continuous Integration and Continuo
 
 ---
 
-## Running the Application Locally
+## Environment Variables
 
-To run the project locally, follow these steps:
+This project requires an API key from [ExchangeRate-API](https://www.exchangerate-api.com/) to fetch currency rates.
+
+### Running Locally
+
+1. Create a `.env` file in the project root directory.
+2. Add the following line, replacing `your_actual_api_key_here` with your API key:
+
+REACT_APP_API_KEY=your_actual_api_key_here
+
+
+3. Then, run the following commands in your terminal:
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/sanjeebnepal/react-app-usd-converter-with-workflows.git
 cd react-app-usd-converter-with-workflows
 
-# Install dependencies
+# Install project dependencies
 npm install
 
 # Build the React frontend
